@@ -15,6 +15,9 @@ a {
     text-decoration: none;
 }
 
+img{
+    display: block;
+}
 
 
 button{
@@ -234,11 +237,17 @@ body {
     width: calc((100% - 72) / 4);
     text-align: center;
     padding-bottom: 32px;
+    border-radius: 0px 0px 4px 4px;
 }
 
 .name-team{
-    margin-top: 32px;
     margin-bottom: 8px;
+    text-align: center;
+}
+
+.block-name-team{
+    padding: 0px 0px 32px 0px;
+    border-radius: 0px 0px 4px 4px;
 }
 
 .section-team p{
@@ -250,6 +259,9 @@ body {
     background-color: #ffffff;
 }
 
+.picture-team{
+    margin-bottom: 32px;
+}
 
 
 .name-team {
@@ -263,6 +275,7 @@ body {
 .proffesion {
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 /* ===============/section-team=============== */
@@ -288,6 +301,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+    row-gap: 48px
 }
 
 .portfolio-list-item{
@@ -332,6 +346,7 @@ body {
 }
 
 .footer-logo-studio {
+    display: inline-block;
     color: #f4f4fd;
 }
 
